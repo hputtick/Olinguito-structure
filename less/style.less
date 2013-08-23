@@ -9,6 +9,15 @@ Theme Name:
 
 */
 
+@charset "UTF-8";
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
 /*
 
 RESET 
@@ -25,11 +34,11 @@ along with our mixins that are full of goodness
 
 ------------------------------------------- */
 
-@import "reset.less";
+@import "parts/reset.less";
 
-@import "global.less";
+@import "parts/global.less";
 
-@import "mixins.less";
+@import "parts/mixins.less";
 
 /*
 
@@ -44,9 +53,11 @@ Time to add the structural layout Styles.
 
 ------------------------------------------- */
 
-@import "header.less";
+@import "parts/header.less";
 
-@import "footer.less";
+@import "parts/content.less";
+
+@import "parts/footer.less";
 
 /*
 
