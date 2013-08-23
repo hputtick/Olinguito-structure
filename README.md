@@ -13,4 +13,4 @@ My setup (LESS CSS) for Wordpress
 - Added of canvas responsive navigation credit to http://dbushell.com/(http://dbushell.com/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/)
 - Added header and footer 
 - Less file structure improvements
--Off canvas styling pre built
+- Off canvas styling pre built
